@@ -221,7 +221,7 @@ return [
         'options' => [
             'enable_coroutine'   => true,
             'hook_flags'         => SWOOLE_HOOK_FILE | SWOOLE_HOOK_STDIO,
-            'log_level'          => SWOOLE_LOG_TRACE,
+            'log_level'          => SWOOLE_LOG_DEBUG,
             'trace_flags'        => SWOOLE_TRACE_ALL,
             'open_tcp_keepalive' => true,
             'tcp_keepidle'       => 620,
